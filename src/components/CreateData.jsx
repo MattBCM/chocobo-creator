@@ -29,7 +29,7 @@ const CreateData = () => {
                 <textarea rows="5" cols="50" id="food" name="food">
                 </textarea>
                 <br/>
-                <input type="submit" value="Submit"/>
+                <button type="submit">Submit</button>
             </form>
         </div>
     )

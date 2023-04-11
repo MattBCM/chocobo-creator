@@ -54,6 +54,8 @@
 }
 
 .container{
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 50px;
   justify-content: center;
   align-items: center;
 }
@@ -68,4 +70,8 @@
 
 button{
   margin: 5px;
+}
+
+label{
+  font-size: 20px;
 }

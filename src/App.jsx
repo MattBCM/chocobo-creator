@@ -6,6 +6,7 @@ import { supabase } from './client'
 import ReadData from './components/ReadData'
 import CreateData from './components/CreateData'
 import EditData from './components/EditData'
+import ProfileData from './components/ProfileData'
 
 
 function App() {
@@ -36,6 +37,10 @@ function App() {
     {
       path: '/edit/:id',
       element: <EditData data={posts}/>
+    },
+    {
+      path: '/chocobo/:id',
+      element: <ProfileData data={posts}/>
     }
   ])
 
@@ -44,6 +49,7 @@ function App() {
       <h1>Chocobo Creator</h1>
       <h2>Application that allows you to create many chocobos and view others</h2>
       {element}
+      <Link to='/'><button>Go Back Home</button></Link>
     </div>
   )
 }

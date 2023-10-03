@@ -1,7 +1,7 @@
 # Chocobo Creator
 
-This web app: Lets users create chocobos into the site and dsplays created ones in the main site. you can click on the image to get a custom profile on the chocobo. You can also
-edit the chocobo and delete it if neede
+This web app: Lets users create chocobos into the site and dsplays made ones in the leading site. you can click on the image to get a custom profile on the chocobo. You can also
+edit the chocobo and delete it if needed
 
 Time spent: 10 hours spent in total
 
